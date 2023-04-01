@@ -24,6 +24,7 @@ else:
     max_num = 0
     if first_num > last_num:
         max_num = first_num
+    else: max_num = last_num    
     for i in range(1, n-1):
         if max_num < arr[i] + arr[i-1] + arr[i+1]:
             max_num = arr[i] + arr[i-1] + arr[i+1]
