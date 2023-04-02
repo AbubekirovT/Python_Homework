@@ -7,4 +7,4 @@ def exp(a,b):
         return a
     return exp(a,b-1) * a
 
-print(exp(2,4))
+print(exp(2,3))
